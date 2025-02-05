@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Walentynka</title>
+        <style>
+            body {
+                margin: 0;
+                background-image: url(images/tlo.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            div.a {
+                font-family: cursive;
+                height: 100vh;
+                align-content: center;
+                text-align: center;
+                color: pink;
+                font-style: italic;
+                font-weight: bolder;
+                font-size: 4em;
+            }
+            div.ab {
+                transition: font-size 2s;
+            }
+            div.ab:hover {
+                font-size: 150%;
+            }
+            a.a {
+                color: white;
+            }
+            a:link, a:visited{
+                opacity: 90%;
+                font-size: 1em;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <p>Zostaniesz moją Walentynką?</p>
+            <p>
+                <div class="ab"><a href="tak.html" class="a">Tak</a></div> <!--  ■  -->
+                <div class="ab"><a href="nie.html" class="a">Nie</a></div>
+            </p>
+        </div>
+        <img src="images/obrazek-removebg-preview.png" width="250" height="250" style="top: 0; right: 1; position: fixed">
+        <img src="images/emota-removebg-preview.png" width="280" height="230" style="bottom: 0; right: 2; position: fixed">
+        <img src="images/emotka2-removebg-preview.png" width="450" height="300" style="bottom: 0; right: 0; position: fixed">
+        <img src="images/serduszko-removebg-preview.png" width="350" height="250" style="top: 0; right: 0; position: fixed">
+    </body>
+</html>
